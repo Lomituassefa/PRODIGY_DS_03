@@ -74,6 +74,5 @@ def evaluate_model():
     print(tabulate(cm_table, headers=cm_headers, tablefmt="fancy_grid"))
     print("=" * 70 + "\n")
 
-
 if __name__ == "__main__":
     evaluate_model()
